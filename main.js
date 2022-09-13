@@ -1,4 +1,4 @@
-function open(evt, cityName) {
+function open(evt, tabId) {
     // Declare all variables
     var i, tabcontent, tablinks;
   
@@ -15,6 +15,7 @@ function open(evt, cityName) {
     }
   
     // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(tabId).style.display = "block";
     evt.currentTarget.className += " active";
   }
+//pj edit: remove w3schools evidence
